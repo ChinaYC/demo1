@@ -1,0 +1,19 @@
+用户(全局)
+git config --global user.naml "名字"
+邮箱(全局)
+git config --global user.email "邮箱"
+查看
+git config --list
+
+
+界面：
+sourcetree或者其他的图形化工具
+
+初始化版本库
+git init
+添加文件到版本库
+git add
+git commit
+查看仓库状态
+git status
+ 	
