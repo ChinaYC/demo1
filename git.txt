@@ -51,4 +51,4 @@ cd ~
 cd .ssh/
 
 标签
-git tag v1.0等等
+git tag v1.0等
