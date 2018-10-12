@@ -49,3 +49,6 @@ git rm 文件名
 ssh-keygen -t rsa -C "1016027366@qq.com"
 cd ~
 cd .ssh/
+
+标签
+git tag v1.0等等
