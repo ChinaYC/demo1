@@ -1,0 +1,51 @@
+用户(全局)
+git config --global user.naml "名字"
+邮箱(全局)
+git config --global user.email "邮箱"
+查看
+git config --list
+
+
+界面：
+sourcetree或者其他的图形化工具
+
+初始化版本库
+git init
+添加文件到版本库
+git add
+git commit -m"提交自定义信息"
+
+查看仓库状态
+git status
+查看在什么目录
+pwd
+查看目录下有什么文件
+ll
+ls（不详细）
+ls -a（-a隐藏和不隐藏的文件都展示） 
+创建文件
+mkdir 文件名(linux常见命令)
+输入内容到新创文件
+echo "git repo2">>test.txt
+查看文件内容
+cat test.txt
+
+清理当前界面
+clear
+
+恢复到之前的版本
+git reset HEARD 文件名
+清除变干净
+git checkout --文件名
+回滚到某个历史版本
+git log
+回滚操作
+git reset --hard 复制commit后面的数字
+清空本地文件
+git rm 文件名
+（再提交一次commit 删除库里的文件{不理解就用图形化界面}）
+
+生成SSHkey
+ssh-keygen -t rsa -C "1016027366@qq.com"
+cd ~
+cd .ssh/
