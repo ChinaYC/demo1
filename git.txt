@@ -52,3 +52,8 @@ cd .ssh/
 
 标签
 git tag v1.0等
+
+分支操作
+git branch
+删除 -d
+git branch -d
