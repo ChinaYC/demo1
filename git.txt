@@ -5,6 +5,8 @@ git config --global user.email "邮箱"
 查看
 git config --list
 
+工作流:初始化->工作区->暂存区->版本库
+初始化:git init -> git add -> git commit-> “pull”
 
 界面：
 sourcetree或者其他的图形化工具
