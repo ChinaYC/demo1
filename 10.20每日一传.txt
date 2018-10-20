@@ -1,4 +1,12 @@
 增 add addall
-删 remove removeall
+删 （先get再｛或者直接用索引｝）remove removeall
 改 set
 查 get
+
+迭代器（记得导入包）
+
+Iterator it = 集合.iterator();
+while（it.hasNext（））｛
+	String i = （String）it.next（）;
+	System.out.println（i）;
+｝
