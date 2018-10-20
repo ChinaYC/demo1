@@ -1,0 +1,4 @@
+Ôö add addall
+É¾ remove removeall
+¸Ä set
+²é get
