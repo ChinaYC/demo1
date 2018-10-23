@@ -1,0 +1,7 @@
+用泛型时不用基本数据类型，一定要用时得转成包装类型
+
+例:
+
+int->Integer long->Long boolean->Boolean
+
+基本类型必须使用包装类作为泛型"
