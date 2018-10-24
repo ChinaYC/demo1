@@ -1,0 +1,32 @@
+java中什么叫entryset?
+HashMap允许将null作为一个entry的key或者value。这个entry好像哪里接触过？想不起来了。什么意思？
+ 我来答
+分享
+举报 浏览 49210 次
+5个回答
+最佳答案
+jiaozi95
+来自电脑网络类芝麻团 推荐于2017-10-02
+
+-------------------------------------------------------------------------------
+
+是java中的一个对象，一般可以通过map.entrySet()得到。
+1，entrySet实现了Set接口，里面存放的是键值对。一个K对应一个V。
+2，用来遍历map的一种方法。
+Set<Map.Entry<String, String>> entryseSet=map.entrySet();
+for (Map.Entry<String, String> entry:entryseSet) {
+System.out.println(entry.getKey()+","+entry.getValue());
+}
+
+通过getKey()得到K，getValue()得到V。   //重点、、
+
+
+
+
+3，还有一种是keySet。
+Set<String> set = map.keySet();
+for (String s:set) {
+System.out.println(s+","+map.get(s));
+}
+
+里面存的是Map的K。        //重点、、
