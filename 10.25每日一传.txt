@@ -1,0 +1,1 @@
+先比较hasCode()再比较equals();
