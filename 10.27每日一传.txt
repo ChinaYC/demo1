@@ -1,0 +1,6 @@
+map查看是否包含指定的内容
+
+id  :直接用 .containsKry(id)看是否存在
+
+value: 用 .containsValue(new String(null,value))判断是否存在
+中间new一个新的值，模拟传入的参数
