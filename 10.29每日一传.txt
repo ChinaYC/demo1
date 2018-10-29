@@ -1,0 +1,6 @@
+应用collections.sort()实现List排序
+
+用 for(){
+	do{
+	} while(integer.contains(I))
+}生成随机而且判断是否有重复的相同类型
