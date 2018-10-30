@@ -1,0 +1,9 @@
+应用collections.sort()实现List排序
+
+用 for(){
+	do{
+	} while(integer.contains(I))
+}生成随机而且判断是否有重复的相同类型
+
+
+用其它泛型进行排序时 根据sort的api指示，得是comparable的接口，这得注意
