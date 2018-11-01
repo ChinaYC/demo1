@@ -1,0 +1,25 @@
+ isEmpty
+
+boolean isEmpty()
+
+    如果此 collection 不包含元素，则返回 true。
+
+    返回：
+        如果此 collection 不包含元素，则返回 true 
+
+
+-------------------------------------------------------
+
+ toArray
+
+Object[] toArray()
+
+    返回包含此 collection 中所有元素的数组。如果 collection 对其迭代器返回的元素顺序做出了某些保证，那么此方法必须以相同的顺序返回这些元素。
+
+    返回的数组将是“安全的”，因为此 collection 并不维护对返回数组的任何引用。（换句话说，即使 collection 受到数组的支持，此方法也必须分配一个新的数组）。因此，调用者可以随意修改返回的数组。
+
+    此方法充当了基于数组的 API 与基于 collection 的 API 之间的桥梁。
+
+    返回：
+        包含此 collection 中所有元素的数组 
+
