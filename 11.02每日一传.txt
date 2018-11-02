@@ -1,0 +1,9 @@
+Collection : List-ArrayList
+	     Set -HashSet
+
+Map<Key，Value>: HashMap
+
+conllections工具类
+Comparable - 默认的比较规则
+Comparator - 临时的比较规则
+
