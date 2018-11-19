@@ -1,0 +1,13 @@
+AVA I/O类
+     * Filer目录的操作
+reateNewfile
+     * file.mkdir()创建文件
+     * file.delete() 删除文件
+     */
+是否是一个目录
+file.isDirectory():
+
+是否是一个文件
+file.isFile();
+
+遍历目录
