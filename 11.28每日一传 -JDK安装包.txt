@@ -1,0 +1,9 @@
+JDK安装后的文件夹
+
+Bin:工具文件
+Jre:与java运行环境相关的文件
+   注:该Jre与从下载后的JRE略有区别
+Demo:示例文件
+Include:与C相关的头文件
+Lib:程序库
+Db:数据库相关

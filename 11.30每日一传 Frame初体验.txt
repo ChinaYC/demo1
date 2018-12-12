@@ -1,0 +1,16 @@
+import java.awt.Frame;
+
+class studyframe {
+    public static void main(String[] args) {
+        Frame f = new Frame();//构造一个最初不可见的 Frame 新实例（）。
+        
+        f.setTitle("人生第一个窗口");//设置窗口标题内容
+        f.setSize(500, 400);//设置窗口大小,宽度500，高度400
+        f.setLocation(300, 200);//设置窗口位置为距离屏幕左边水平方向300，上方垂直方向200
+        f.setVisible(true);//设置窗体可见。        
+    }
+
+}
+还没有到事件监听器，所以窗体是无法直接关闭的。
+
+想要关闭必须通过进程管理器结束进程方式关掉。

@@ -1,0 +1,16 @@
+隋唐演义讲多线程？
+ 不过今天所学还是单核CPU多线程，总感觉不是我想要的那种多线程。 估计到后面会有对多核的讲解。。菜鸟，且行且珍惜
+
+
+THREAD() 创建线程
+
+void start()  启动线程
+
+static void sleep(long millis)线程休眠
+
+void join() 使其他线程等待当前线程终止
+
+static void yield() 当前运行线程释放处理器资源
+
+static Thread currentThread() 返回当前运行的线程引用
+
