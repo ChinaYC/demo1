@@ -1,0 +1,10 @@
+Summary
+
+1.Every Java method has to be within a class
+每个Java方法都必须在一个类中
+
+2.Static methods belong to a class while non-static methods belong to objects
+静态方法属于一个类，而非静态方法属于对象(重点)
+
+3.All parameters to functions are passed by value, primitives content is copied, while objects are not copied and some would say 'passed by reference'
+函数的所有参数都按值传递，基元内容被复制，而对象不被复制，有些人会说'通过引用传递'
