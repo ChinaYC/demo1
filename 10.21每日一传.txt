@@ -1,12 +1,12 @@
-Ôö add addall
-É¾ £¨ÏÈgetÔÙ£û»òÕßÖ±½ÓÓÃË÷Òı£ı£©remove removeall
-¸Ä set
-²é get
+å¢ add addall
+åˆ  ï¼ˆå…ˆgetå†ï½›æˆ–è€…ç›´æ¥ç”¨ç´¢å¼•ï½ï¼‰remove removeall
+æ”¹ set
+æŸ¥ get
 
-µü´úÆ÷£¨¼ÇµÃµ¼Èë°ü£©
+è¿­ä»£å™¨ï¼ˆè®°å¾—å¯¼å…¥åŒ…ï¼‰1
 
-Iterator it = ¼¯ºÏ.iterator();
-while£¨it.hasNext£¨£©£©£û
-	String i = £¨String£©it.next£¨£©;
-	System.out.println£¨i£©;
-£ı
+Iterator it = é›†åˆ.iterator();
+whileï¼ˆit.hasNextï¼ˆï¼‰ï¼‰ï½›
+	String i = ï¼ˆStringï¼‰it.nextï¼ˆï¼‰;
+	System.out.printlnï¼ˆiï¼‰;
+ï½
