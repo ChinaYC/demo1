@@ -1,2 +1,1 @@
-https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=52d7e3451da687e49015a545fd417a83
-10
+https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=75d24f68767e70104f28a30793eb73e1
